@@ -1,0 +1,263 @@
+.color {
+  color: hsl(193, 100%, 96%);
+  color: hsl(192, 100%, 9%);
+  color: hsl(208, 11%, 55%);
+  color: hsl(322, 100%, 66%);
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utility */
+
+.btn-primary {
+  text-decoration: none;
+  border: 1.2px solid;
+  border-radius: 25px;
+  color: hsl(322, 100%, 66%);
+  padding: 0.3rem 1.5rem;
+}
+
+.user-black {
+  background: hsl(193, 100%, 96%);
+}
+
+.btn-secondary {
+  display: block;
+  width: 20%;
+  margin: 1.7rem auto 4rem auto;
+  text-decoration: none;
+  background: hsl(322, 100%, 66%);
+  border-radius: 50px;
+  color: hsl(193, 100%, 96%);
+  padding: 1.2rem 4rem;
+  font-weight: 600;
+  box-shadow: 5px 10px 16px -10px hsl(208, 11%, 55%);
+}
+
+.btn-primary:hover {
+  background: hsl(322, 100%, 66%);
+  color: hsl(193, 100%, 96%);
+  border: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-secondary:hover {
+  border: 1px solid hsl(322, 100%, 66%);
+  background: hsl(193, 100%, 96%);
+  color: hsl(322, 100%, 66%);
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.headings-secondary {
+  font-family: "Poppins", sans-serif;
+  font-size: 190%;
+  font-weight: 700;
+  padding-bottom: 1.4rem;
+}
+
+/* Body */
+
+body {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  padding: 4rem 3.5rem;
+}
+
+.home {
+  background: url("./images/bg-hero-desktop.svg") no-repeat center center/cover;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+header img {
+  width: 200px;
+}
+
+header .btn {
+  text-decoration: none;
+  border: 1.2px solid;
+  border-radius: 25px;
+  color: hsl(322, 100%, 66%);
+  padding: 0.3rem 1.5rem;
+}
+
+.hero {
+  text-align: center;
+  height: 100%;
+}
+
+.hero h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 250%;
+  font-weight: 700;
+}
+
+.hero p {
+  width: 30%;
+  margin: 1rem auto 0 auto;
+  line-height: 1.5;
+}
+
+.hero img {
+  display: block;
+  margin: 0 auto;
+  width: 55%;
+}
+
+
+
+
+
+
+
+.users {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  padding: 0 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user .content {
+  width: 50%;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+.users .content h1,
+p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.user .illustration {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.user .illustration img {
+  width: 400px;
+}
+
+.get-started {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.get-started .btn-secondary {
+  margin: 0 auto;
+}
+
+.footer {
+  font-size: 80%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(193, 100%, 96%);
+  padding-bottom: 4rem;
+  overflow: hidden;
+}
+
+.footer .about-us {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .about-us img {
+  width: 200px;
+  color: #fff;
+  text-align: left;
+  margin-left: 30%;
+  margin-bottom: 1.2rem;
+}
+
+footer .about-us p {
+  line-height: 1.5;
+  width: 40%;
+  /* margin: 0 auto; */
+}
+
+footer .about-us p:nth-of-type(2) {
+  line-height: 4;
+}
+
+.footer .news-letter {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.3rem;
+}
+
+.footer .news-letter h2 {
+  margin-left: 25%;
+  margin-bottom: 1.2rem;
+}
+
+.footer .news-letter p {
+  margin-bottom: 1.5rem;
+}
+
+.footer .news-letter .submit {
+  display: flex;
+  margin-left: 25%;
+}
+
+.footer .news-letter .submit input[type="text"] {
+  width: 40%;
+  /* box-sizing: content-box; */
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+footer .news-letter .submit input[type="submit"] {
+  margin: 0 1rem;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 4px;
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(193, 100%, 96%);
+  font-weight: 600;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+.wave-container > svg {
+  display: block;
+  margin: 0;
+}

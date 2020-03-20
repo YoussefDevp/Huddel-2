@@ -1,0 +1,72 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+    .btn-secondary  {
+        width: 25%;
+    }
+}
+/* smal tablet to big tablet */
+@media only screen and (max-width: 768px) {
+}
+    .hero h1 {
+        font-size: 200%;
+    }
+
+    .hero p {
+        width: 50%;
+    }
+
+    .hero img {
+        width: 80%;
+    }
+
+    .btn-secondary  {
+        width: 45%;
+    }
+
+    .user {
+        flex-direction: column;
+    }
+
+    .user .content h1 ,p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .user .content:nth-of-type(1) p,
+    .user .content:nth-of-type(3) p{
+        margin-bottom: 2rem;
+    }
+
+    .user .content:nth-of-type(2) h1 {
+        margin-top: 2rem;
+    }
+
+    .footer .about-us p {
+        text-align: left;
+    }
+
+    .footer .news-letter .submit {
+        margin: 0 auto;
+    }
+
+
+
+/* Small Phones to small tablets: from 481px to 767px
+@media only screen and (max-width: 767px) {
+} */
+
+/* Small Phones: from 375 to 480px */
+@media only screen and (max-width: 480px) {
+}
+.user {
+    justify-content: center;
+}
+.user .illustration img {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+/* Super Small phones : from 0 to 374 */
+@media only screen and (max-width: 374) {
+}

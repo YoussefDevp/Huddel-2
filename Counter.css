@@ -1,0 +1,59 @@
+/* counter */
+
+.analystics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.wrapper {
+    flex: 1;
+    text-align: center;
+    font-size: 180%;
+    font-weight: 700;
+  }
+  
+  .wrapper span {
+    font-size: 400%;
+    font-weight: 700;
+  }
+  
+  .box {
+    display: inline-block;
+    overflow: hidden;
+    font-size:3em;
+    font-weight: bold;
+    height: 1.2em;
+  }
+  .box:after {
+    position: relative;
+    white-space: pre;
+    content: "1\A 0\A 1\A";
+  }
+  
+  .box.second-number:after {
+    content: "4\k+ \A 1\A 2\A 3\A 4\k";
+  }
+  
+  .box.first-number:after {
+    animation: animate .5s steps(4) reverse;
+    transition: .1s all ease-in;
+  }
+  .box.second-number:after {
+    animation: animate 2s steps(10) reverse;
+    transition: .1s all ease-in;
+  }
+  
+  @keyframes animate {
+    0% {
+      top: 0;
+    }
+    100% {
+      top: -10em;
+    }
+  }
+
+  .wrapper p {
+    color: hsl(208, 11%, 55%);
+    font-size: 80%;
+  }
