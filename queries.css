@@ -6,7 +6,6 @@
 }
 /* smal tablet to big tablet */
 @media only screen and (max-width: 768px) {
-}
     .hero h1 {
         font-size: 200%;
     }
@@ -48,6 +47,8 @@
     .footer .news-letter .submit {
         margin: 0 auto;
     }
+}
+    
 
 
 

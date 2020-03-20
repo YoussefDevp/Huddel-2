@@ -76,6 +76,8 @@ body {
   background: url("./images/bg-hero-desktop.svg") no-repeat center center/cover;
 }
 
+/* header */
+
 header {
   display: flex;
   align-items: center;
@@ -94,6 +96,8 @@ header .btn {
   color: hsl(322, 100%, 66%);
   padding: 0.3rem 1.5rem;
 }
+
+/* Hero  */
 
 .hero {
   text-align: center;
@@ -118,11 +122,7 @@ header .btn {
   width: 55%;
 }
 
-
-
-
-
-
+/* users */
 
 .users {
   flex-direction: column;
@@ -132,7 +132,7 @@ header .btn {
 }
 
 .user {
-  padding: 0 2rem;
+  padding: 0 5rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -148,7 +148,7 @@ header .btn {
   justify-items: center;
 }
 
-.users .content h1,
+.user .content h1,
 p {
   width: 50%;
   margin: 0 auto;
@@ -165,6 +165,8 @@ p {
   width: 400px;
 }
 
+/* Get Started */
+
 .get-started {
   width: 100%;
   margin: 0 auto;
@@ -174,6 +176,8 @@ p {
 .get-started .btn-secondary {
   margin: 0 auto;
 }
+
+/* Footer  */
 
 .footer {
   font-size: 80%;
@@ -234,7 +238,6 @@ footer .about-us p:nth-of-type(2) {
 
 .footer .news-letter .submit input[type="text"] {
   width: 40%;
-  /* box-sizing: content-box; */
   border: none;
   border-radius: 4px;
   display: inline-block;
