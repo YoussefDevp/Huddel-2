@@ -135,4 +135,8 @@
   .user .content h1 {
     width: 80%;
   }
+
+  .coded-by p {
+    width: 60%;
+  }
 }
