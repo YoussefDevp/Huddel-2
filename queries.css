@@ -101,7 +101,6 @@
 @media only screen and (max-width: 480px) {
   header img {
     flex: 1;
-    /* width: 60%; */
   }
 
   header .btn-primary {
@@ -124,6 +123,16 @@
     margin: 0 auto;
   }
 }
-/* Super Small phones : from 0 to 374 */
-@media only screen and (max-width: 374px) {
+/* Super Small phones : from 0 to 320 */
+@media only screen and (max-width: 470px) {
+  .btn-secondary {
+    width: 84%;
+  }
+
+  .user .illustration {
+    width: 80%;
+  }
+  .user .content h1 {
+    width: 80%;
+  }
 }
